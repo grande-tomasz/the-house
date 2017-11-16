@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Averia+Libre:400,700|Averia+Sans+Libre:400,700');
+
+* {
+  box-sizing: border-box;
+}
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(rgb(97, 70, 56), rgb(9, 7, 5) 85%);
+  color: #ffffff;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  width: 40rem;
+}
+
+header h1,
+.chorus {
+  color: #668099;
+}
+
+header {
+  padding: 2rem 0;
+  font-family: 'Averia Libre', sans-serif;
+  text-align: center;
+  
+  h1 {
+    font: {
+      size: 6rem;
+      weight: 400;
+    }
+    text-transform : lowercase;
+  }
+
+  p {
+    font-size: 4rem;
+  }
+}
+
+.lyrics {
+  font: {
+    family: 'Averia Sans Libre', sans-serif;
+    size: 2rem;
+  }
+  
+  p {
+    padding: 1rem;
+    padding-left: 4rem;
+  }
+}
