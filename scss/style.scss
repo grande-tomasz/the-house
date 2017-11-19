@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Averia+Libre:400,700|Averia+Sans+Libre:400,700');
+$color-theme: #668099;
 
 * {
   box-sizing: border-box;
@@ -17,12 +18,12 @@ body {
 .container {
   background-color: rgba(0, 0, 0, 0.5);
   margin: 0 auto;
-  width: 40rem;
+  max-width: 767px;
 }
 
 header h1,
 .chorus {
-  color: #668099;
+  color: $color-theme;
 }
 
 header {
@@ -44,7 +45,7 @@ header {
 
   img {
     margin-top: 2rem;
-    border: 5px solid #668099;
+    border: 5px solid $color-theme;
     width: 30rem;
     height: 30rem;
   }
@@ -59,19 +60,53 @@ header {
   
   p {
     padding: 1rem;
-    padding-left: 4rem;
+    padding-left: 8rem;
   }
 }
 
 footer {
   display: flex;
-  border-top: 1px solid #668099;
+  border-top: 1px solid $color-theme;
   padding: 2rem 4rem;
   font-family: 'Averia Libre', sans-serif;
-  color: #668099;
+  color: $color-theme;
 }
 
 // .test {
 // 	display: flex;
 // 	flex-wrap: wrap;
 // }
+
+/* MOBILE */
+@media(max-width: 767px) {
+  // .container {
+  //   max-width: 767px;
+  // }
+
+  header {
+  padding: 1rem 0;
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 2rem;
+    }
+    img {
+      margin-top: 1rem;
+      width: 15rem;
+      height: 15rem;
+    }
+  }
+
+  .lyrics {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    p {
+      padding-left: 2rem;
+    }
+  }
+
+  footer {
+    padding: 1rem 2rem;
+  }
+}

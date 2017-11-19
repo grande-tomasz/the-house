@@ -15,7 +15,7 @@ body {
 .container {
   background-color: rgba(0, 0, 0, 0.5);
   margin: 0 auto;
-  width: 40rem; }
+  max-width: 767px; }
 
 header h1,
 .chorus {
@@ -43,7 +43,7 @@ header {
   font-size: 2rem; }
   .lyrics p {
     padding: 1rem;
-    padding-left: 4rem; }
+    padding-left: 8rem; }
 
 footer {
   display: -webkit-box;
@@ -54,4 +54,25 @@ footer {
   font-family: 'Averia Libre', sans-serif;
   color: #668099; }
 
+/* MOBILE */
+@media (max-width: 767px) {
+  header {
+    padding: 1rem 0; }
+    header h1 {
+      font-size: 3rem; }
+    header p {
+      font-size: 2rem; }
+    header img {
+      margin-top: 1rem;
+      width: 15rem;
+      height: 15rem; }
+
+  .lyrics {
+    padding-bottom: 1rem;
+    font-size: 1rem; }
+    .lyrics p {
+      padding-left: 2rem; }
+
+  footer {
+    padding: 1rem 2rem; } }
 /*# sourceMappingURL=style.prefixed.css.map */
