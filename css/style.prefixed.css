@@ -31,8 +31,14 @@ header {
     text-transform: lowercase; }
   header p {
     font-size: 4rem; }
+  header img {
+    margin-top: 2rem;
+    border: 5px solid #668099;
+    width: 30rem;
+    height: 30rem; }
 
 .lyrics {
+  padding-bottom: 2rem;
   font-family: 'Averia Sans Libre', sans-serif;
   font-size: 2rem; }
   .lyrics p {
@@ -47,4 +53,5 @@ footer {
   padding: 2rem 4rem;
   font-family: 'Averia Libre', sans-serif;
   color: #668099; }
+
 /*# sourceMappingURL=style.prefixed.css.map */
