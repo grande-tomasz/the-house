@@ -46,9 +46,6 @@ header {
     padding-left: 8rem; }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   border-top: 1px solid #668099;
   padding: 2rem 4rem;
   font-family: 'Averia Libre', sans-serif;
